@@ -10,9 +10,9 @@ html {
 body {
   font-family: "Playfair Display", sans-serif, serif;
   color: #626262;
-  margin: 0 auto;
   font-size: 16px;
   background: white;
+  margin: 0 auto;
 }
 
 .mastheader_nav {
