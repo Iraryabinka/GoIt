@@ -14,7 +14,7 @@ body {
   background: white;
 }
 
-.container {
+.articles {
   width: 900px;
   margin: 0 auto;
 }
@@ -39,6 +39,10 @@ body {
   margin-right: 0;
 }
 
+main.articles {
+  font-size: 0;
+}
+
 .articles:last-child {
   margin-right: 0;
 }
@@ -50,11 +54,9 @@ body {
 .nav_list_item {
   margin-right: 100px;
 }
-.nav_section__link_blue {
+
+li a:hover {
   color: rgb(137, 193, 245);
-  font-size: 14px;
-  text-decoration: none;
-  text-transform: uppercase;
 }
 
 .nav_section__link {
@@ -64,20 +66,14 @@ body {
   text-transform: uppercase;
 }
 
-.dancing_girl_container {
+.container {
   width: 420px;
   display: inline-block;
   margin-right: 50px;
   margin-bottom: 150px;
 }
 
-.coffee_conteiner {
-  width: 420px;
-  display: inline-block;
-  margin-bottom: 150px;
-}
-
-.img_subtitle {
+.post_category {
   font-family: "Ubuntu", sans-serif, serif;
   color: #b4ad9e;
   font-size: 14px;
@@ -90,31 +86,8 @@ body {
   line-height: 25px;
 }
 
-.girls_container {
-  width: 420px;
-  display: inline-block;
-  margin-right: 50px;
-  margin-bottom: 140px;
-}
-.man_container {
-  width: 420px;
-  display: inline-block;
-  margin-bottom: 140px;
-}
-
-.dream_container {
-width: 420px;
-display: inline-block;
-margin-bottom: 56px;
-margin-right: 50px;
-}
-
-.alps_container {
-  width: 420px;
-  display: inline-block;
-  margin-bottom: 56px;
-}
 .button {
+  cursor: pointer;
   margin: 0 380px 70px 370px;
 }
 
