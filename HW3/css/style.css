@@ -12,6 +12,10 @@ body {
   color: #626262;
   font-size: 16px;
   background: white;
+}
+
+.wrapper {
+  width: 900px;
   margin: 0 auto;
 }
 
@@ -35,10 +39,6 @@ body {
   margin-right: 0;
 }
 
-.articles:last-child {
-  margin-right: 0;
-}
-
 .nav_list li {
   display: inline-block;
 }
@@ -59,10 +59,22 @@ li a:hover {
 }
 
 .container {
+  font-size: 0;
+}
+
+.container {
   width: 420px;
   display: inline-block;
-  margin-right: 50px;
+  margin-right: 60px;
   margin-bottom: 150px;
+}
+
+.container:last-child {
+  margin-right: 0;
+}
+
+.container:nth-child(even) {
+  margin-right: 0;
 }
 
 .post_category {
