@@ -39,6 +39,10 @@ body {
   margin-right: 0;
 }
 
+.articles:last-child {
+  margin-right: 0;
+}
+
 .nav_list li {
   display: inline-block;
 }
@@ -90,14 +94,26 @@ body {
   width: 420px;
   display: inline-block;
   margin-right: 50px;
-  margin-bottom: 56px;
+  margin-bottom: 140px;
 }
 .man_container {
   width: 420px;
   display: inline-block;
-  margin-bottom: 56px;
+  margin-bottom: 140px;
 }
 
+.dream_container {
+width: 420px;
+display: inline-block;
+margin-bottom: 56px;
+margin-right: 50px;
+}
+
+.alps_container {
+  width: 420px;
+  display: inline-block;
+  margin-bottom: 56px;
+}
 .button {
   margin: 0 380px 70px 370px;
 }
