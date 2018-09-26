@@ -56,7 +56,12 @@ li a:hover {
   text-decoration: none;
   text-transform: uppercase;
 }
-
+ img {
+   display: block;
+   max-width: 100%;
+   height: auto;
+ }
+ 
 .article_container {
   font-size: 0;
 }
