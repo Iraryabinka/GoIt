@@ -13,7 +13,7 @@ body {
   font-size: 16px;
 }
 
-.container {
+.wrapper {
   width: 980px;
   margin: 0 auto;
 }
@@ -99,7 +99,7 @@ li a:hover {
   display: inline-block;
   position: relative;
   cursor: pointer;
-  margin: 0 520px 70px 470px;
+  margin: 0px 470px 70px 470px;
 }
 
 .load_button {
