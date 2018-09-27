@@ -1,61 +1,63 @@
 html {
   box-sizing: border-box;
 }
-*,
-*::after,
-*::before {
-  box-sizing: inherit;
+
+body {
+  font-family: "Roboto", sans-serif, serif;
+  color: #555252;
 }
 
 .visually-hidden {
-	position: absolute !important;
-	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-	clip: rect(1px, 1px, 1px, 1px);
-	padding:0 !important;
-	border:0 !important;
-	height: 1px !important; 
-	width: 1px !important; 
-	overflow: hidden;
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
 }
- ul {
-   margin: 0;
-   padding: 0;
- }
 
- .clearfix::after {
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix::after {
   content: "";
   display: table;
   clear: both;
 }
 
-body {
-  font-family: "Roboto", sans-serif, serif;
-  color: #555252;
-  font-size: 16px;
-  background: white;
-}
-
-.container{
+.section {
   width: 1110px;
   margin: 0 auto;
-  background-color: white;
-}
- 
-.mastheader_nav {
-  padding-top: 30px;
 }
 
-.nav_list {
-  font-family: 'Open Sans', sans-serif;
-  margin: 0;
-  padding: 0;
+.header__header-nav {
+  padding-top: 30px;
+  float: right;
+}
+
+.nav_section__link {
+  list-style: none;
+  float: left;
+}
+
+.nav_list_item {
+  list-style: none;
+  float: left;
+  margin-right: 20px;
+}
+
+.header-nav__nav-list {
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   list-style: none;
-  text-align: right;
   text-transform: uppercase;
 }
 
-.nav_section__link:hover {
+li:hover {
   color: rgb(137, 193, 245);
 }
 
@@ -64,10 +66,17 @@ body {
   margin-right: 30px;
 }
 
-.nav_list li:last-child {
-  margin-right: 0;
+.header-nav__nav-list li:last-child {
+  margin-right: 0px;
+}
+.header-nav__nav-list li:first-child {
+  margin-right: 600px;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
 }
 
-.nav_list li:first-child {
-    margin-right: 560px;
+.header__header-nav:first-letter {
+  font-family: "Roboto bold", sans-serif;
+  color: rgb(38, 151, 155);
+  font-size: 50px;
 }
