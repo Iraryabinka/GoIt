@@ -32,6 +32,7 @@ ul {
 .section {
   width: 1110px;
   margin: 0 auto;
+  display: inline-block;
 }
 
 .header__header-nav {
@@ -55,6 +56,21 @@ ul {
   font-size: 14px;
   list-style: none;
   text-transform: uppercase;
+  padding-top: 10px;
+}
+
+.logo {
+  margin: 0;
+  display: inline-block;
+}
+
+h1 {
+  float:left;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding-top: 35px;
 }
 
 li:hover {
@@ -66,19 +82,10 @@ li:hover {
   margin-right: 30px;
 }
 
-.header-nav__nav-list li:last-child {
-  margin-right: 0px;
-}
-.header-nav__nav-list li:first-child {
-  margin-right: 600px;
+h1:first-letter {
   font-family: "Roboto", sans-serif;
-  font-size: 30px;
-}
-
-.first_mart:first-letter {
-  font-family: "Roboto bold", sans-serif;
   color: rgb(38, 151, 155);
-  font-size: 50px;
+  font-weight: 700;
 }
 
 /*-----------------------------*/
@@ -88,7 +95,7 @@ li:hover {
   text-align: center;
 }
 
-h1 {
+h2 {
   font-family: "Roboto", sans-serif;
   font-size: 48px;
   text-transform: uppercase;
