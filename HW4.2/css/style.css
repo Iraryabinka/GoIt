@@ -78,7 +78,7 @@ h1 {
   padding-top: 35px;
 }
 
-.nav_list_item:hover::after{
+.nav_list_item:hover {
   color: rgb(137, 193, 245);
 }
 
@@ -104,7 +104,7 @@ img {
   height: auto;
 }
 
-.subtitle_hover clearfix:hover {
+.subtitle_hover:hover {
   background-color: rgb(26, 188, 156);
 }
 
@@ -144,18 +144,21 @@ h2 {
 .subtitle_rate {
   margin-bottom: 0;
 }
+.subtitle_hover {
+  background-color: rgb(25, 25, 25);
+  margin-bottom: 25px;
+}
 
 .subtitle {
   display: block;
   margin-top: 0;
   height: 40px;
   width: 190px;
-  background: #2b2a2a;
   font-family: "Roboto", sans-serif;
   font-weight: 600;
   font-size: 18px;
   text-transform: uppercase;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   float: left;
   padding-top: 14px;
   padding-right: 0;
@@ -166,7 +169,7 @@ h2 {
   margin-top: 0;
   height: 40px;
   width: 65px;
-  background: rgb(155, 153, 153);
+  background: rgba(255, 255, 255, 44%);
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   text-transform: uppercase;
