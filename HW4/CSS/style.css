@@ -89,10 +89,13 @@ h1 {
 
 h1:first-letter {
   font-family: "Roboto", sans-serif;
-  color: rgb(38, 151, 155);
+  color: rgb(26, 188, 156);
   font-weight: 700;
 }
 
+.masthead {
+  margin-bottom: 113px;
+}
 /*-----------------------------*/
 
 img {
@@ -142,7 +145,13 @@ h2 {
   width: 25%;
   float: left;
   list-style: none;
+}
 
+.articles-list:nth-child(5n) {
+  background-color: rgb(233, 240, 253);
+  position: absolute;
+  width: 255px;
+  height: 322px;
 }
 
 .subtitle {
