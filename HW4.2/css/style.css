@@ -104,11 +104,7 @@ img {
   height: auto;
 }
 
-.subtitle_hover:hover {
-  background-color: rgb(26, 188, 156);
-}
-
-.subtitle_rate:hover {
+.subtitle_hover clearfix:hover {
   background-color: rgb(26, 188, 156);
 }
 
@@ -137,7 +133,6 @@ h2 {
 
 .close_img {
   width: 255px;
-  height: 228px;
   margin-right: 25px;
   float: left;
   list-style: none;
@@ -147,11 +142,7 @@ h2 {
 }
 
 .subtitle_rate {
-  margin-bottom: 25px;
-}
-
-.subtitle:hover {
-  background-color: rgb(26, 188, 156);
+  margin-bottom: 0;
 }
 
 .subtitle {
