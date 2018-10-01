@@ -130,7 +130,7 @@ h2 {
   display: block;
   width: 160px;
   margin: 0 auto;
-  border-bottom: 8px solid #02aca0;
+  border-bottom: 8px solid rgb(26, 188, 156);
   margin-top: 33px;
   margin-bottom: 93px;
 }
@@ -147,11 +147,8 @@ h2 {
   list-style: none;
 }
 
-.articles-list:nth-child(5n) {
-  background-color: rgb(233, 240, 253);
-  position: absolute;
-  width: 255px;
-  height: 322px;
+.subtitle:hover {
+  background-color: rgb(26, 188, 156);
 }
 
 .subtitle {
@@ -175,7 +172,7 @@ h2 {
   margin-top: 0;
   height: 40px;
   width: 65px;
-  background: #5f5d5d;
+  background: rgb(155, 153, 153);
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   text-transform: uppercase;
