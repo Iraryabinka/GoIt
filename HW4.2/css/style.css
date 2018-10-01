@@ -136,15 +136,18 @@ h2 {
 }
 
 .close_img {
-  width: 25%;
+  width: 255px;
+  height: 228px;
+  margin-right: 25px;
   float: left;
   list-style: none;
 }
+.close_img:nth-child(4n) {
+  margin-right: 0;
+}
 
-.close_img_bag {
-  width: 25%;
-  float: left;
-  list-style: none;
+.subtitle_rate {
+  margin-bottom: 25px;
 }
 
 .subtitle:hover {
