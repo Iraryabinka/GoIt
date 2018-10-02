@@ -46,12 +46,12 @@ ul {
   margin-right: 20px;
 }
 
-  a.site_logo:active, 
-  a.site_logo:hover,
-  a.site_logo {
-    text-decoration: none;
-    color: rgb(45, 46, 46);;
-  }
+a.site_logo:active,
+a.site_logo:hover,
+a.site_logo {
+  text-decoration: none;
+  color: rgb(54, 58, 57);
+}
 
 .nav_section__link {
   list-style: none;
@@ -97,7 +97,7 @@ h1 {
 
 h1:first-letter {
   font-family: "Roboto", sans-serif;
-  color: rgb(149, 248, 228);
+  color: rgb(26, 188, 156);
   font-weight: 700;
 }
 
@@ -239,9 +239,7 @@ h3:after {
   text-decoration: none;
   font-size: 16px;
   display: inline-block;
-  background-color: #00e0d0;
-  border-radius: 5px;
-  paddind: 40px 80px;
+  background-color: rgb(78, 198, 171);
+  border-radius: 3px;
+  padding: 15px 40px;
 }
- 
-
