@@ -43,7 +43,15 @@ ul {
 .header__header-nav {
   padding-top: 30px;
   float: right;
+  margin-right: 20px;
 }
+
+  a.site_logo:active, 
+  a.site_logo:hover,
+  a.site_logo {
+    text-decoration: none;
+    color: rgb(45, 46, 46);;
+  }
 
 .nav_section__link {
   list-style: none;
@@ -79,7 +87,7 @@ h1 {
 }
 
 .nav_list_item:hover {
-  color: rgb(137, 193, 245);
+  color: rgb(189, 255, 242);
 }
 
 .nav_list li {
@@ -89,12 +97,16 @@ h1 {
 
 h1:first-letter {
   font-family: "Roboto", sans-serif;
-  color: rgb(26, 188, 156);
+  color: rgb(149, 248, 228);
   font-weight: 700;
 }
 
 .masthead {
   margin-bottom: 113px;
+}
+
+.header-nav__nav-list li:last-child {
+  margin-right: 0;
 }
 /*-----------------------------*/
 
@@ -131,13 +143,13 @@ h2 {
   margin-bottom: 93px;
 }
 
-.close_img {
+.articles-list li {
   width: 255px;
   margin-right: 25px;
   float: left;
   list-style: none;
 }
-.close_img:nth-child(4n) {
+.articles-list li:nth-child(4n) {
   margin-right: 0;
 }
 
