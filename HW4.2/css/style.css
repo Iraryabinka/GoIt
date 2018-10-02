@@ -234,18 +234,14 @@ h3:after {
 .article__button {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
-  color: white;
+  line-height: 1.8;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-block;
+  background-color: #00e0d0;
   border-radius: 5px;
-  background: #00e0d0;
-  cursor: pointer;
-  outline: none;
-  height: 50px;
-  width: 160px;
+  paddind: 40px 80px;
 }
  
-a.article__button:active, 
-  a.article__button:hover,
-  a.article__button {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-  }
+
