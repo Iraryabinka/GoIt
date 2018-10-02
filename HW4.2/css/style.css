@@ -242,3 +242,10 @@ h3:after {
   height: 50px;
   width: 160px;
 }
+ 
+a.article__button:active, 
+  a.article__button:hover,
+  a.article__button {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
