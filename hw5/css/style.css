@@ -1,21 +1,104 @@
 html {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: "Roboto", sans-serif, serif;
-    color: #555252;
-  }
+  box-sizing: border-box;
+}
 
-  .parent {
-      width: 200px;
-      height: 150px;
-      background-color: black;
+body {
+  font-family: "Roboto", sans-serif, serif;
+  color: #555252;
+}
 
-  }
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
 
-  .child{
-      width: 30px;
-      height:30px;
-background-color: #555252
-  }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.section {
+  width: 1110px;
+  margin: 0 auto;
+  display: block; 
+}
+.header__header-nav {
+  padding-top: 30px;
+  float: right;
+}
+
+a.site_logo:active,
+a.site_logo {
+  text-decoration: none;
+  color: rgb(54, 58, 57);
+}
+
+a.nav_section__link:active,
+a.nav_section__link {
+  text-decoration: none;
+  color: rgb(54, 58, 57);
+}
+
+.nav_list_item {
+  list-style: none;
+  float: left;
+  margin-right: 30px;
+}
+
+.header-nav__nav-list {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  list-style: none;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+
+.logo {
+  margin: 0;
+  display: inline-block;
+}
+
+h1 {
+  float: left;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding-top: 35px;
+}
+
+.nav_section__link:hover {
+  color: rgb(189, 255, 242);
+}
+
+h1:first-letter {
+  font-family: "Roboto", sans-serif;
+  color: rgb(26, 188, 156);
+  font-weight: 700;
+}
+
+.masthead {
+  margin-bottom: 113px;
+}
+
+.header-nav__nav-list li:last-child {
+  margin-right: 0;
+}
