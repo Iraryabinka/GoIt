@@ -155,8 +155,8 @@ h1:first-letter {
 .bunner_title {
   display: inline-block;
   position: absolute;
-  right: 435px;
-  top: 220px;
+  left: 380px;
+  top: 250px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 48px;
@@ -168,11 +168,12 @@ h1:first-letter {
 .bunner_description {
   display: inline-block;
   position: absolute;
-  right: 675px;
-  top: 300px;
+  left: 380px;
+  top: 350px;
   font-family: "Roboto", sans-serif;
+  font-weight: 100;
   color: white;
-  font-size: 18px;
+  font-size: 20px;
   text-transform: uppercase;
   z-index: 2;
 }
