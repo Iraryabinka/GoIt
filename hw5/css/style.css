@@ -105,7 +105,7 @@ h1:first-letter {
 
 .bunner_wraper {
   width: 100%;
-  position: relative;
+  parent: relative;
   margin-bottom: 100px;
 }
 .slider_gradient {
@@ -114,14 +114,12 @@ h1:first-letter {
   height: 104px;
   position: absolute;
   background-color: rgba(27, 33, 44, 0.5);
-  background-size: auto auto;
-  margin: 0 0;
   z-index: 10;
 }
 
 .bunner {
-    display: inline-block;
-    position: absolute;
+  display: inline-block;
+  position: absolute;
 }
 .button_left {
   position: absolute;
@@ -129,9 +127,10 @@ h1:first-letter {
   width: 104px;
   height: 104px;
   background-color: rgba(26, 188, 156, 70%);
-  left: 230px;
-  top: 248px;
+  left: 200px;
+  top: 300px;
   border: none;
+  z-index: 100;
 }
 
 .button_right {
@@ -140,9 +139,10 @@ h1:first-letter {
   width: 104px;
   height: 104px;
   background-color: rgba(26, 188, 156, 70%);
-  right: 230px;
-  top: 248px;
+  right: 200px;
+  top: 300px;
   border: none;
+  z-index: 100;
 }
 
 .slides {
@@ -151,26 +151,33 @@ h1:first-letter {
   list-style: none;
 }
 .bunner_title {
+  display: inline-block;
   position: absolute;
-  z-index: 100;
+  right: 190px;
+  top: 220px;
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  color: white;
+  text-transform: uppercase;
 }
+
 .bunner_description {
+  display: inline-block;
   position: absolute;
-  z-index: 100;
+  right: 360px;
+  top: 300px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
 }
 
 /*-------------------------------*/
 
-.cards_wraper {
-  background-color: rgb(233, 240, 253);
-  background-size: auto auto;
-  position: relative;
-}
 .products {
   background-color: rgb(233, 240, 253);
   background-size: auto auto;
   position: relative;
-  left: -50px;
 }
 
 img {
