@@ -131,7 +131,7 @@ h1:first-letter {
   background-color: rgba(26, 188, 156, 70%);
   /*left: 200px;
   top: 300px;*/
-  top: 90%;
+  top: 50%;
   transform: translateY(-50%);
   border: none;
   z-index: 2;
