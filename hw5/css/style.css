@@ -36,7 +36,7 @@ ul {
 }
 
 .section {
-  width: 1110px;
+  width: 1600px;
   margin: 0 auto;
   display: block;
 }
@@ -66,10 +66,12 @@ a.nav_section__link {
 
 .header-nav__nav-list {
   font-family: "Open Sans", sans-serif;
+  font-weight: 900;
   font-size: 14px;
   list-style: none;
   text-transform: uppercase;
   padding-top: 10px;
+  padding-right: 250px;
 }
 
 .logo {
@@ -81,6 +83,7 @@ a.nav_section__link {
   padding-top: 35px;
   margin: 0;
   display: inline-block;
+  margin-left: 250px;
 }
 
 .nav_section__link:hover {
@@ -98,29 +101,33 @@ h1:first-letter {
 }
 
 .masthead__header {
-  margin-bottom: 40px;
+  margin-bottom: 25px;
+  margin-right: 0;
 }
 
 /*-------------------------------------*/
+.parent {
+  width: 1600px;
+  height: 600px;
+  parent: relative;
+  margin: 0 auto;
+  margin-bottom: 0;
+}
 
 .bunner_wraper {
   width: 100%;
   parent: relative;
 }
+
 .slider_gradient {
   display: inline-block;
   position: absolute;
   /*transform: translateX(50%);
   transform: translateY(50%);*/
-  width: 1425px;
-  height: 535px;
+  width: 1600px;
+  height: 600px;
   background-color: rgba(27, 33, 44, 0.5);
   z-index: 1;
-}
-
-.bunner {
-  display: inline-block;
-  position: absolute;
 }
 
 .button {
@@ -131,17 +138,22 @@ h1:first-letter {
   background-color: rgba(26, 188, 156, 70%);
   /*left: 200px;
   top: 300px;*/
-  top: 50%;
-  transform: translateY(-50%);
+  top: 330px;
   border: none;
   z-index: 2;
 }
+
+.fas {
+  color: white;
+  font-size: 100px;
+}
+
 .button_left {
-  left: 200px;
+  left: 245px;
 }
 
 .button_right {
-  right: 200px;
+  right: 80px;
 }
 
 .slides {
@@ -152,8 +164,8 @@ h1:first-letter {
 .bunner_title {
   display: inline-block;
   position: absolute;
-  left: 380px;
-  top: 250px;
+  left: 430px;
+  top: 280px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 48px;
@@ -165,8 +177,8 @@ h1:first-letter {
 .bunner_description {
   display: inline-block;
   position: absolute;
-  left: 380px;
-  top: 350px;
+  left: 430px;
+  top: 380px;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   color: white;
@@ -179,8 +191,10 @@ h1:first-letter {
 
 .products {
   background-color: rgb(233, 240, 253);
-  background-size: auto auto;
+  width: 1600px;
   position: relative;
+  margin: 0 auto;
+  text-align: center;
 }
 
 img {
@@ -191,11 +205,6 @@ img {
 
 .subtitle_hover:hover {
   background-color: rgb(26, 188, 156);
-}
-
-.products {
-  margin: 0 auto;
-  text-align: center;
 }
 
 .banner__title {
@@ -217,6 +226,9 @@ img {
   margin-bottom: 93px;
 }
 
+.articles-list {
+  margin-left: 245px;
+}
 .articles-list li {
   width: 255px;
   margin-right: 30px;
@@ -267,6 +279,7 @@ img {
 .close_img {
   position: relative;
 }
+/*-------------------------------------*/
 
 .overlay {
   position: absolute;
@@ -278,34 +291,59 @@ img {
   right: 13px;
 }
 
-.but_stand {
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 50px;
-  top: 90px;
-  riaht: 36px;
-  z-index: 5;
-  background-color: rgb(0, 0, 0);
-}
-
-.but_stand_hart {
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 50px;
-  top: 90px;
-  right: 96px;
-  z-index: 5;
-  background-color: rgb(233, 22, 22);
-}
-
 .close_img:hover .overlay {
   opacity: 0.549;
 }
 
+.but_cards {
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 50px;
+  z-index: 5;
+  background-color: rgb(0, 0, 0);
+}
 
-/*.background_text {
+.but_first {
+  top: 80px;
+  left: 30px;
+}
+
+.but_second {
+  top: 80px;
+  left: 90px;
+}
+.but_third {
+  top: 80px;
+  left: 150px;
+}
+.but_stand_big {
+  background-color: #1f1a1a;
+  width: 170px;
+  height: 50px;
+  top: 138px;
+  left: 30px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.but_cards:hover {
+  background-color: rgb(26, 188, 156);
+}
+
+.far {
+  font-size: 30px;
+  color: white;
+}
+.fa-shopping-cart {
+  font-size: 25px;
+  padding-right: 10px;
+}
+.fa-random {
+  font-size: 25px;
+}
+.background_text {
   background-color: rgb(50, 50, 50);
   background-size: auto auto;
   width: 1600px;
@@ -318,7 +356,23 @@ img {
   font-size: 14px;
   color: #ffffff;
   font-size: 16px;
-  padding-top: 40px;
-  paddinf-left: 350px;
-  margin: 0 0;
-}*/
+  margin-left: 600px;
+  margin-top: 0;
+  padding-top: 35px;
+  /*text-align: center;*/
+}
+
+.line {
+  border-right: 2px solid #ccc;
+  padding-left: 5px;
+  margin-right: 10px;
+}
+
+.fa-copyright {
+  font-size: 15px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.footer_text_p {
+  color: rgb(26, 188, 156)
+}
