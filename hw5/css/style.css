@@ -124,7 +124,6 @@ h1:first-letter {
 }
 
 .slider_gradient {
-  display: inline-block;
   position: absolute;
   /*transform: translateX(50%);
   transform: translateY(50%);*/
