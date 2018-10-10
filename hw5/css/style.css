@@ -23,14 +23,20 @@ ul {
   padding: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .clearfix::after {
   content: "";
   display: table;
   clear: both;
 }
 
-.section {
-  width: 1600px;
+.masthead__header {
+  width: 1110px;
   margin: 0 auto;
   display: block;
 }
@@ -65,7 +71,8 @@ a.nav_section__link {
   list-style: none;
   text-transform: uppercase;
   padding-top: 10px;
-  padding-right: 250px;
+  margin: 0 auto;
+  /*padding-right: 250px;*/
 }
 
 .logo {
@@ -73,36 +80,36 @@ a.nav_section__link {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   font-size: 30px;
+  line-height: 1.067;
   text-transform: uppercase;
   padding-top: 35px;
   margin: 0;
   display: inline-block;
-  margin-left: 250px;
 }
 
 .nav_section__link:hover {
-  color: rgb(189, 255, 242);
+  color: rgb(26, 188, 156);
 }
 
 h1:first-letter {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  color: #1abc9c;
+  color: rgb(26, 188, 156);
 }
 
 .header-nav__nav-list li:last-child {
   margin-right: 0;
 }
 
-.masthead__header {
+.navigation_wrapper {
   margin-bottom: 25px;
   margin-right: 0;
 }
 
 /*-------------------------------------*/
 .parent {
-  width: 1600px;
-  height: 600px;
+  width: 100%;
+  height: 100%;
   parent: relative;
   margin: 0 auto;
   margin-bottom: 0;
@@ -118,8 +125,8 @@ h1:first-letter {
   position: absolute;
   /*transform: translateX(50%);
   transform: translateY(50%);*/
-  width: 1600px;
-  height: 600px;
+  width: 100%;
+  height: 535px;
   background-color: rgba(27, 33, 44, 0.5);
   z-index: 1;
 }
@@ -132,9 +139,13 @@ h1:first-letter {
   background-color: rgba(26, 188, 156, 70%);
   /*left: 200px;
   top: 300px;*/
-  top: 330px;
   border: none;
+  margin-top: 215px;
   z-index: 2;
+}
+
+.button:hover {
+  background-color: rgb(26, 188, 156);
 }
 
 .buttons {
@@ -142,11 +153,11 @@ h1:first-letter {
 }
 
 .button_left {
-  left: 245px;
+  left: 150px;
 }
 
 .button_right {
-  right: 80px;
+  right: 150px;
 }
 
 .slides {
@@ -159,7 +170,7 @@ h1:first-letter {
   display: inline-block;
   position: absolute;
   left: 430px;
-  top: 280px;
+  top: 260px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 48px;
@@ -172,7 +183,7 @@ h1:first-letter {
   display: inline-block;
   position: absolute;
   left: 430px;
-  top: 380px;
+  top: 360px;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   color: white;
@@ -185,7 +196,7 @@ h1:first-letter {
 
 .products {
   background-color: rgb(233, 240, 253);
-  width: 1600px;
+  width: 100%;
   position: relative;
   margin: 0 auto;
   text-align: center;
@@ -221,7 +232,8 @@ img {
 }
 
 .articles-list {
-  margin-left: 245px;
+  margin: 0 auto;
+  display: inline-block;
 }
 
 .articles-list li {
@@ -278,16 +290,16 @@ img {
 
 .overlay {
   position: absolute;
+  display: none;
   width: 229px;
   height: 256px;
-  background-color: rgb(0, 0, 0);
-  opacity: 0;
+  background: rgb(0, 0, 0, 0.549);
   top: 13px;
   right: 13px;
 }
 
 .close_img:hover .overlay {
-  opacity: 0.549;
+  display: block;
 }
 
 .but_cards {
@@ -305,20 +317,20 @@ img {
 }
 
 .close_img:hover .overlay_but {
-  background-color: aquamarine;
+  background-color: rgb(127, 255, 212);
   opacity: 1;
 }
 
 .but_first {
-  left: 43px;
+  left: 30px;
 }
 
 .but_second {
-  left: 103px;
+  left: 90px;
 }
 
 .but_third {
-  left: 163px;
+  left: 150px;
 }
 
 .but_img {
@@ -335,7 +347,7 @@ img {
   width: 170px;
   height: 50px;
   top: 151px;
-  left: 43px;
+  left: 30px;
   color: white;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -347,25 +359,24 @@ img {
   background-color: rgb(26, 188, 156);
 }
 
-.background_text {
-  background-color: rgb(50, 50, 50);
-  background-size: auto auto;
-  width: 1600px;
-  height: 90px;
-}
 /*--------------------------------*/
 
-.footer_text {
+.background_text {
+  background-color: rgb(50, 50, 50);
+  width: 100%;
+  height: 90px;
+}
+
+.background_text {
   display: inline-block;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   font-size: 14px;
   color: #ffffff;
   font-size: 16px;
-  margin-left: 600px;
-  margin-top: 0;
-  padding-top: 35px;
-  /*text-align: center;*/
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20px;
 }
 
 .line {
