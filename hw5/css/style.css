@@ -35,10 +35,10 @@ img {
   clear: both;
 }
 
-.masthead__header {
+.container {
   width: 1110px;
   margin: 0 auto;
-  display: block;
+  padding-bottom: 25px;
 }
 
 .header__header-nav {
@@ -99,11 +99,6 @@ h1:first-letter {
 }
 
 .header-nav__nav-list li:last-child {
-  margin-right: 0;
-}
-
-.navigation_wrapper {
-  margin-bottom: 25px;
   margin-right: 0;
 }
 
@@ -172,7 +167,7 @@ h1:first-letter {
   display: inline-block;
   position: absolute;
   left: 430px;
-  top: 260px;
+  top: 170px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 48px;
@@ -185,7 +180,7 @@ h1:first-letter {
   display: inline-block;
   position: absolute;
   left: 430px;
-  top: 360px;
+  top: 270px;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   color: white;
