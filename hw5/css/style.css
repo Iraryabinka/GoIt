@@ -38,6 +38,7 @@ img {
 .container {
   width: 1110px;
   margin: 0 auto;
+  position: relative;
 }
 
 .header__header-nav {
@@ -120,8 +121,6 @@ h1:first-letter {
 
 .slider_gradient {
   position: absolute;
-  /*transform: translateX(50%);
-  transform: translateY(50%);*/
   width: 100%;
   height: 100%;
   background-color: rgba(27, 33, 44, 0.5);
@@ -134,11 +133,14 @@ h1:first-letter {
   width: 104px;
   height: 104px;
   background-color: rgba(26, 188, 156, 70%);
-  /*left: 200px;
-  top: 300px;*/
   border: none;
   margin-top: 215px;
-  z-index: 2;
+  z-index: 1;
+}
+
+.button_right {
+  position: absolute;
+  right: 0;
 }
 
 .button:hover {
@@ -147,14 +149,6 @@ h1:first-letter {
 
 .buttons {
   margin: 0 auto;
-}
-
-.button_left {
-  left: 150px;
-}
-
-.button_right {
-  right: 150px;
 }
 
 .slides {
@@ -166,7 +160,7 @@ h1:first-letter {
 .bunner_title {
   display: inline-block;
   position: absolute;
-  left: 430px;
+  left: 190px;
   top: 170px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -179,7 +173,7 @@ h1:first-letter {
 .bunner_description {
   display: inline-block;
   position: absolute;
-  left: 430px;
+  left: 190px;
   top: 270px;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
