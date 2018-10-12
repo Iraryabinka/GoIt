@@ -110,12 +110,6 @@ h1:first-letter {
   position: relative;
   margin: 0 auto;
   margin-bottom: 0;
-}
-
-.bunner_wraper {
-  width: 100%;
-  height: 100%;
-  parent: relative;
   overflow: hidden;
 }
 
@@ -258,6 +252,11 @@ img {
   padding-right: 0;
 }
 
+.subtitle_linc {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
 .subtitle_rate {
   display: block;
   margin-top: 0;
@@ -376,14 +375,8 @@ img {
   margin-right: 10px;
 }
 
-.fa-copyright {
-  font-size: 15px;
-  padding-right: 5px;
-  padding-left: 5px;
-}
-
 .footer_text_p {
-  color: white;
+  color:rgb(26, 188, 156);
   text-decoration: none;
 }
 
