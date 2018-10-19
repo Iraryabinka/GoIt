@@ -120,23 +120,25 @@ a.nav_section__link {
 }*/
 
 .slider {
-  background: linear-gradient( rgba(27, 33, 44, 0.5)), url("../img/index.jpg") no-repeat center;
+  position: relative;
+  background: linear-gradient(rgba(27, 33, 44, 0.5), rgba(27, 33, 44, 0.5)),
+    url("../img/index.jpg") no-repeat center;
   background-size: cover;
+  height: 600px;
+  
 }
 
 .button {
-  
+  position: absolute;
   display: inline-block;
   width: 104px;
   height: 104px;
   background-color: rgba(26, 188, 156, 70%);
   border: none;
-  margin-top: 215px;
-  z-index: 1;
+  margin-top: 245px;
 }
 
 .button_right {
-  
   right: 0;
 }
 
@@ -156,28 +158,26 @@ a.nav_section__link {
 
 .bunner_title {
   display: inline-block;
- 
-  left: 190px;
-  top: 170px;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 48px;
   color: white;
   text-transform: uppercase;
-  z-index: 2;
+  margin-left: 185px;
+  margin-top: 240px;
+  margin-bottom: 0;
+  margin-right: 0;
 }
 
 .bunner_description {
   display: inline-block;
-  
-  left: 190px;
-  top: 270px;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   color: white;
   font-size: 20px;
   text-transform: uppercase;
-  z-index: 2;
+  margin-left: 185px;
+
 }
 
 /*-------------------------------*/
@@ -208,7 +208,7 @@ img {
   text-transform: uppercase;
   text-align: center;
   margin-top: 0;
-  
+
   margin-bottom: 120px;
 }
 
@@ -360,7 +360,7 @@ img {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   text-transform: uppercase;
-  padding-bottom: 13px;
+  padding-bottom: 11px;
 }
 
 .but_cards:hover {
