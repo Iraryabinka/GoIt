@@ -38,7 +38,7 @@ img {
 .container {
   width: 1110px;
   margin: 0 auto;
-  padding: 0 15px;
+  
   position: relative;
 }
 
@@ -115,7 +115,6 @@ a.nav_section__link {
   background: linear-gradient(rgba(27, 33, 44, 0.5), rgba(27, 33, 44, 0.5)),
     url("../img/index.jpg") no-repeat center;
   background-size: cover;
-  height: 600px;
 }
 
 .button {
@@ -153,10 +152,11 @@ a.nav_section__link {
   font-size: 48px;
   color: white;
   text-transform: uppercase;
-  margin-left: 185px;
-  margin-top: 240px;
+  margin-left: 100px;
+  padding-top: 240px;
   margin-bottom: 0;
   margin-right: 0;
+  margin-top: 0;
 }
 
 .bunner_description {
@@ -166,9 +166,15 @@ a.nav_section__link {
   color: white;
   font-size: 20px;
   text-transform: uppercase;
-  margin-left: 185px;
+  margin-left: 100px;
+  padding-bottom: 200px;
+  margin-bottom: 0;
 }
 
+.bunner_content{
+  padding-left: 104px;
+  padding-right: 104px;
+}
 /*-------------------------------*/
 
 .products {
