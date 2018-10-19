@@ -152,8 +152,6 @@ a.nav_section__link {
   font-size: 48px;
   color: white;
   text-transform: uppercase;
-  margin-left: 100px;
-  padding-top: 240px;
   margin-bottom: 0;
   margin-right: 0;
   margin-top: 0;
@@ -166,14 +164,14 @@ a.nav_section__link {
   color: white;
   font-size: 20px;
   text-transform: uppercase;
-  margin-left: 100px;
-  padding-bottom: 200px;
   margin-bottom: 0;
 }
 
 .bunner_content{
-  padding-left: 104px;
-  padding-right: 104px;
+  padding-left: 180px;
+  padding-right: 190px;
+  padding-bottom: 285px;
+  padding-top: 230px;
 }
 /*-------------------------------*/
 
