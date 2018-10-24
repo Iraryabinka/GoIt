@@ -218,22 +218,41 @@ a.nav_section__link {
 }
 /*------------------------------*/
 
-.content {
+.content_overlay {
   position: relative;
 }
 
 .overlay {
   position: absolute;
-  display: none;
+  /*display: none;*/
   width: 380px;
   height: 470px;
-  background: rgba(237, 137, 137, 0.5);
+  background: rgb(149, 225, 211);
 }
 
-.content:hover .overlay {
+.content_overlay:hover .overlay {
   display: block;
 }
 
+.but_cards {
+  height: 57px;
+  width: 57px;
+  background-color: rgb(252, 227, 138);
+}
+
+.but_img {
+  margin: 0 auto;
+}
+
+.but_cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.but_cards:hover {
+  background-color: transparent;
+}
 /*------------------------------*/
 
 .background_title {
