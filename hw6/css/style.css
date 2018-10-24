@@ -225,12 +225,12 @@ a.nav_section__link {
 .overlay {
   position: absolute;
   display: none;
-  width: 470px;
-  height: 380px;
+  width: 380px;
+  height: 470px;
   background: rgba(237, 137, 137, 0.5);
 }
 
-.close_img:hover .overlay {
+.content:hover .overlay {
   display: block;
 }
 
