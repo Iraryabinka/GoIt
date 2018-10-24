@@ -1,0 +1,237 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif, serif;
+  color: rgb(51, 51, 51);
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+a.site_logo:active,
+a.site_logo {
+  text-decoration: none;
+}
+
+a.nav_section__link:active,
+a.nav_section__link {
+  text-decoration: none;
+  color: rgb(149, 225, 211);
+}
+
+.header-nav__nav-list {
+  text-decoration: none;
+  color: rgb(149, 225, 211);
+}
+
+.nav_list_item {
+  display: inline-block;
+  list-style: none;
+  margin-right: 60px;
+  padding-top: 40px;
+}
+
+.nav_list_item:last-child {
+  margin-right: 0;
+}
+
+.header__header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 135px;
+}
+
+.site_navigation {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(149, 225, 211);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.site_logo {
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(149, 225, 211);
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.2;
+  padding-top: 40px;
+}
+
+.nav_section__link {
+  padding-bottom: 12px;
+  padding-top: 40px;
+  transition: color 200ms linear;
+}
+
+.nav_section__link:hover,
+.nav_section__link::after {
+  color: rgb(243, 129, 129);
+  content: "";
+  width: 50px;
+  border-bottom: 2px solid rgb(243, 129, 129);
+}
+
+/*------------------------------*/
+
+.subtitle_top {
+  text-align: center;
+  font-family: "Kaushan Script", cursive;
+  color: rgb(51, 51, 51);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.subtitle_bottom {
+  position: relative;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(51, 51, 51);
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  margin-bottom: 114px;
+}
+
+.subtitle_bottom::after {
+  position: absolute;
+  content: "";
+  width: 60px;
+  left: 470px;
+  border-bottom: 3px solid rgb(243, 129, 129);
+  bottom: -44px;
+  left: 580px;
+}
+
+/*------------------------------*/
+
+.item {
+  list-style: none;
+  display: flex;
+  width: 30%;
+  margin-bottom: 100px;
+}
+
+.icon {
+  margin-right: 30px;
+  height: 32px;
+  width: 31px;
+}
+
+.blocks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+.title {
+  margin-top: 0;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(51, 51, 51);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-family: "Roboto", sans-serif;
+  color: rgb(153, 153, 153);
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/*------------------------------*/
+
+.subtitle_description {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: rgb(153, 153, 153);
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6;
+  padding-left: 125px;
+  padding-right: 125px;
+  padding-bottom: 90px;
+}
+
+.photos_container {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.content_title {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(51, 51, 51);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  margin: 0;
+  padding-top: 32px;
+  padding-bottom: 20px;
+}
+
+.content_subtitle {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: rgb(153, 153, 153);
+  font-style: italic;
+  line-height: 1.6;
+  margin: 0;
+  margin-bottom: 88px;
+}
+/*------------------------------*/
+
+
+
+/*------------------------------*/
+
+.background_title {
+  position: relative;
+  margin: 0;
+}
+
+/*.background_title::after {
+  position: absolute;
+  content: "";
+  width: 1200px;
+  border-bottom: 1px solid rgb(153, 153, 153);
+  bottom: 30px;
+}
+*/
