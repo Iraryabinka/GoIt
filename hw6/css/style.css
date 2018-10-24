@@ -220,14 +220,18 @@ a.nav_section__link {
 
 .content_overlay {
   position: relative;
+  
 }
 
 .overlay {
   position: absolute;
-  /*display: none;*/
   width: 380px;
   height: 470px;
-  background: rgb(149, 225, 211);
+  background: rgba(149, 225, 211, 1);
+  /*display: none;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .content_overlay:hover .overlay {
@@ -242,12 +246,6 @@ a.nav_section__link {
 
 .but_img {
   margin: 0 auto;
-}
-
-.but_cards {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .but_cards:hover {
