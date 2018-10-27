@@ -218,9 +218,8 @@ a.nav_section__link {
 }
 /*------------------------------*/
 
-.content_overlay {
+.content {
   position: relative;
- 
 }
 
 .overlay {
@@ -265,16 +264,63 @@ a.nav_section__link {
 }
 /*------------------------------*/
 
-.background_title {
-  position: relative;
-  margin: 0;
+.background_text {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
-/*.background_title::after {
+.background_title {
+  position: relative;
+  color: rgb(102, 102, 102);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer_link{
+  color: rgb(249, 192, 192);
+  text-decoration: none;
+}
+
+.footer_link:hover {
+  color: rgb(249, 192, 192);
+}
+
+.background_title::after {
   position: absolute;
   content: "";
   width: 1200px;
   border-bottom: 1px solid rgb(153, 153, 153);
-  bottom: 30px;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  color: rgb(229, 229, 229);
 }
-*/
+
+.subscr_button{
+  height: 46px;
+  width: 150px;
+  background-color: rgb(149, 225, 211);
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.6;
+  text-transform: uppercase;
+  border: none;
+}
+
+.input_email {
+  height: 40px;
+  width: 230px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: rgb(204, 204, 204);
+  font-style: italic;
+  line-height: 1.6;
+  align-self: flex-end;
+}
+
