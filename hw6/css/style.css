@@ -219,14 +219,13 @@ a.nav_section__link {
 /*------------------------------*/
 
 .img_wrapper {
-  position: relative;
+  
   width: 380px;
   height: 470px;
   background: rgb(149, 225, 211);
   align-items: center;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .but_cards {
@@ -236,7 +235,11 @@ a.nav_section__link {
   margin-right: 1px;
 }
 
-.content_img:hover {
+.content_img {
+  position: relative;
+}
+
+.content_img:hover .overlay{
   transform: translate(-15px, -15px);
   background: linear-gradient(
     rgba(243, 129, 129, 0.9),
@@ -244,7 +247,28 @@ a.nav_section__link {
   );
 }
 
-.but_wrapper{
+.overlay {
+  position: absolute;
+  width: 380px;
+  height: 470px;
+  background: linear-gradient(
+    rgba(243, 129, 129, 0),
+    rgba(252, 227, 138, 0)
+  );
+}
+
+
+.overlay:hover {
+  transform: translate(-15px, -15px);
+  width: 380px;
+  height: 470px;
+  background: linear-gradient(
+    rgba(243, 129, 129, 0.9),
+    rgba(252, 227, 138, 0.9)
+  );
+}
+
+.but_wrapper {
   list-style: none;
   position: absolute;
   display: flex;
