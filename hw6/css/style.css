@@ -236,9 +236,19 @@ a.nav_section__link {
 
 }
 
+.overlay {
+  position: absolute;
+  width: 380px;
+  height: 470px;
+  background: linear-gradient(
+    rgba(243, 129, 129, 0),
+    rgba(252, 227, 138, 0)
+  );
+}
+
 .content_img:hover {
   transform: translate(-15px, -15px);
-  background-color: linear-gradient(
+  background: linear-gradient(
     rgba(243, 129, 129, 0.9),
     rgba(252, 227, 138, 0.9)
   );
