@@ -219,7 +219,6 @@ a.nav_section__link {
 /*------------------------------*/
 
 .img_wrapper {
-  
   width: 380px;
   height: 470px;
   background: rgb(149, 225, 211);
@@ -239,7 +238,7 @@ a.nav_section__link {
   position: relative;
 }
 
-.content_img:hover .overlay{
+.img_wrapper:hover {
   transform: translate(-15px, -15px);
   background: linear-gradient(
     rgba(243, 129, 129, 0.9),
@@ -259,7 +258,6 @@ a.nav_section__link {
 
 
 .overlay:hover {
-  transform: translate(-15px, -15px);
   width: 380px;
   height: 470px;
   background: linear-gradient(
@@ -344,3 +342,7 @@ a.nav_section__link {
   line-height: 1.6;
   align-self: flex-end;
 }
+
+/*------------------------------*/
+
+

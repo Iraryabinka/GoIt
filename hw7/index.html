@@ -1,44 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>HomeWork7</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=KoHo" rel="stylesheet">
 </head>
+
 <body>
-    
-        <header class="masthead__header container">
 
-                <nav class="header__header-nav">
-                    <a href="#" class="site_logo">Golden</a>
-        
-                    <ul class="site_navigation">
-                        <li class="nav_list_item">
-                            <a href="#" class="nav_section__link">home</a></li>
-                        <li class="nav_list_item">
-                            <a href="#" class="nav_section__link">services</a></li>
-                        <li class="nav_list_item">
-                            <a href="#" class="nav_section__link">portfolio</a></li>
-                        <li class="nav_list_item">
-                            <a href="#" class="nav_section__link">about</a></li>
-                        <li class="nav_list_item">
-                            <a href="#" class="nav_section__link">contact</a></li>
-                    </ul>
-        
-                </nav>
-        
-            </header>
+    <header class="masthead__header container">
 
+        <nav class="header__header-nav">
+            <a href="#" class="site_logo">Golden</a>
 
+            <ul class="site_navigation">
+                <li class="nav_list_item">
+                    <a href="#" class="nav_section__link">home
+                    </a>
+                </li>
+                <li class="nav_list_item">
+                    <a href="#" class="nav_section__link">services
+                    </a>
+                </li>
+                <li class="nav_list_item">
+                    <a href="#" class="nav_section__link">portfolio
+                    </a>
+                </li>
+                <li class="nav_list_item">
+                    <a href="#" class="nav_section__link">about
+                    </a>
+                </li>
+                <li class="nav_list_item">
+                    <a href="#" class="nav_section__link">contact
+                    </a>
+                </li>
+            </ul>
 
+        </nav>
 
+    </header>
 
+    <main>
+        <div class="container">
+            <h2 class="main_title">services </h2>
+            <p class="main_subtitle">Lorem ipsum dolor sit amet consectetur.</p>
 
+            <ul class="blocks">
 
+                <li class="item">
+                    <div class="item_img">
+                        <img class="icon_circle" src="img/Circle-1.png" alt="circle" height="74" width="73">
+                        <img class="icon_bsk" src="img/Icon-Basket.png" alt="basket" height="40" width="39">
+                    </div>
+                    <div class="text">
+                        <h3 class="title">E-Commerce</h3>
+                        <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt sint reprehenderit
+                            ipsum dolor sit adipisicing dolor sit adipisicing dolor
+                        </p>
+                    </div>
 
+                </li>
+                <li class="item">
+                    <div class="item_img">
+                        <img class="icon_circle" src="img/Circle-1.png" alt="circle" height="74" width="73">
+                        <img class="icon_lpt" src="img/Icon-Laptop.png" alt="laptop" height="40" width="39">
+                    </div>
+                    <div class="text">
+                        <h3 class="title">Responsive Web</h3>
+                        <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt sint reprehenderit
+                            ipsum dolor sit adipisicing dolor sit adipisicing dolor
+                        </p>
+                    </div>
 
+                </li>
+                <li class="item">
+                    <div class="item_img">
+                        <img class="icon_circle" src="img/Circle-1.png" alt="circle" height="74" width="73">
+                        <img class="icon_lock" src="img/Icon-Locked.png" alt="locked" height="38" width="29">
+                    </div>
+                    <div class="text">
+                        <h3 class="title">Web Security</h3>
+                        <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt sint reprehenderit
+                            ipsum dolor sit adipisicing dolor sit adipisicing dolor
+                        </p>
+                    </div>
+                </li>
 
-            
+            </ul>
+        </div>
+    </main>
+
+    <footer class="form_container">
+        <img class="map_img" src="img/map-image.png" alt="map" height="614" width="537">
+
+        <div class="container">
+            <h3 class="footer_title">Contuct us</h3>
+            <p class="footer_subtitle">Lorem ipsum dolor sit amet consectetur
+            </p>
+
+            <form class="forms" action="#" method="get">
+                <ul class="form_tipes">
+                    <li><input class="name_area right" type="text" name="name" placeholder="your name*" required>
+                    </li>
+                    <li><input class="email_area right" type="email" name="email" placeholder="your e-mail*" required>
+                    </li>
+                    <li><input class="subj_area right" type="text" name="text" placeholder="subject">
+                    </li>
+                    <li><textarea class="comm_area left" name="comments" placeholder="your message" rows="5" cols="45" required>
+                    </textarea>
+                    </li>
+                    <li><input class="button_area" type="submit" value="send message">
+                    </li>
+                </ul>
+            </form>
+
+        </div>
+    </footer>
 </body>
+
 </html>
