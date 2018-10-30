@@ -98,7 +98,6 @@
     </main>
 
     <footer class="form_container">
-        <img class="map_img" src="img/map-image.png" alt="map" height="614" width="537">
 
         <div class="container">
             <h3 class="footer_title">Contuct us</h3>
@@ -107,18 +106,25 @@
 
             <form class="forms" action="#" method="get">
                 <ul class="form_tipes">
-                    <li><input class="name_area right" type="text" name="name" placeholder="your name*" required>
-                    </li>
-                    <li><input class="email_area right" type="email" name="email" placeholder="your e-mail*" required>
-                    </li>
-                    <li><input class="subj_area right" type="text" name="text" placeholder="subject">
-                    </li>
-                    <li><textarea class="comm_area left" name="comments" placeholder="your message" rows="5" cols="45" required>
-                    </textarea>
-                    </li>
-                    <li><input class="button_area" type="submit" value="send message">
-                    </li>
+                    <div class="column_cont">
+                        <li><input class="right outl" type="text" name="name" placeholder="your name*" required>
+                        </li>
+                        <li><input class="right outl" type="email" name="email" placeholder="your e-mail*" required>
+                        </li>
+                        <li><input class="right" type="text" name="text" placeholder="subject">
+                        </li>
+                    </div>
+                    <div class="row_cont">
+                        <li><input class="comm_area left outl" name="comments" placeholder="your message*" rows="5" cols="45"
+                                required>
+                        </li>
+                    </div>
                 </ul>
+
+                <div class="button">
+                    <input class="button_area" type="submit" value="send message">
+                </div>
+
             </form>
 
         </div>

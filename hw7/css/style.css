@@ -183,16 +183,10 @@ a.nav_section__link {
 /*--------------------------------*/
 
 .form_container {
-  background-color: rgb(0, 0, 0);
+  background: url("../img/map-image.png") no-repeat right,
+    linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
   height: 680px;
-}
-
-.map_img {
-  display: flex;
-  float: right;
-  padding-top: 120px;
-  width: 614px;
-  height: 537px;
+  padding-top: 90px;
 }
 
 .footer_title {
@@ -204,29 +198,29 @@ a.nav_section__link {
   line-height: 1.5;
   text-transform: uppercase;
   margin: 0;
-  padding-left: 350px;
-  padding-top: 110px;
+  padding-top: 20px;
 }
 
 .footer_subtitle {
   text-align: center;
   font-family: "KoHo", sans-serif;
-  color: rgb(255, 255, 255);
+  color: rgb(119, 119, 119);
   font-style: italic;
   line-height: 1.2;
   font-size: 17px;
   margin: 0;
   margin-bottom: 80px;
-  padding-left: 350px;
 }
 
 .form_tipes {
+  display: flex;
+  justify-content: flex-end;
   list-style: none;
 }
 
 .right {
   height: 53px;
-  width: 460px;
+  width: 425px;
   margin-bottom: 30px;
   border-radius: 5px;
   font-family: "Montserrat", sans-serif;
@@ -235,5 +229,51 @@ a.nav_section__link {
   color: rgb(187, 187, 187);
   line-height: 1.5;
   text-transform: uppercase;
-  padding-left: 23px;
+  padding: 0 0 0 20px;
+  border: none;
+}
+
+.right::last-child {
+  margin-bottom: 0;
+}
+
+.comm_area {
+  width: 455px;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: rgb(187, 187, 187);
+  line-height: 1.5;
+  text-transform: uppercase;
+  border: none;
+  padding: 20px 0 180px 20px;
+}
+
+.column_cont {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.button_area {
+  height: 65px;
+  width: 240px;
+  background-color: rgb(254, 209, 54);
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin-left: 350px;
+  border: none;
+}
+
+.outl:valid {
+  outline: 2px solid rgb(0, 128, 0);
+}
+
+.outl:invalid {
+  outline: 2px solid rgb(255, 0, 0);
 }
