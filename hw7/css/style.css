@@ -60,8 +60,7 @@ a.nav_section__link {
   font-size: 14px;
   line-height: 1.2;
   text-transform: uppercase;
-  margin-top: 0;
-  padding-top: 40px;
+  margin: 0;
 }
 
 .site_logo {
@@ -72,10 +71,13 @@ a.nav_section__link {
   font-size: 30px;
   line-height: 1.2;
   padding-top: 30px;
+  padding-bottom: 35px;
 }
 
 .nav_section__link {
-  padding-bottom: 12px;
+  display: inline-block;
+  padding-top: 40px;
+  padding-bottom: 35px;
   transition: color 200ms linear;
 }
 
@@ -133,7 +135,8 @@ a.nav_section__link {
   width: 70px;
   border: 3px solid rgb(254, 209, 54);
   border-radius: 100%;
-  margin-left: 105px;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .icon_lpt {
@@ -153,6 +156,7 @@ a.nav_section__link {
   flex-wrap: wrap;
   justify-content: space-between;
   padding-left: 0;
+  margin-bottom: 120px;
 }
 
 .title {
@@ -161,9 +165,9 @@ a.nav_section__link {
   color: rgb(34, 34, 34);
   font-weight: 700;
   font-size: 16px;
-  line-height: 4;
   margin: 0;
-  margin-bottom: -10px;
+  line-height: 1.2;
+  margin-bottom: 20px;
 }
 
 .subtitle {
@@ -174,7 +178,6 @@ a.nav_section__link {
   color: rgb(119, 119, 119);
   line-height: 1.5;
   margin: 0;
-  margin-bottom: 120px;
 }
 
 /*--------------------------------*/
@@ -182,8 +185,8 @@ a.nav_section__link {
 .form_container {
   background: url("../img/map-image.png") no-repeat right,
     linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
-  height: 600px;
-  padding-top: 90px;
+  padding-top: 120px;
+  padding-bottom: 113px;
 }
 
 .footer_title {
@@ -195,7 +198,6 @@ a.nav_section__link {
   line-height: 1.5;
   text-transform: uppercase;
   margin: 0;
-  padding-top: 20px;
 }
 
 .footer_subtitle {
@@ -264,8 +266,12 @@ a.nav_section__link {
   color: rgb(255, 255, 255);
   line-height: 1.5;
   text-transform: uppercase;
-  margin-left: 350px;
   border: none;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
 }
 
 .outl:valid {
