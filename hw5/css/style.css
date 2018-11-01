@@ -265,10 +265,11 @@ img {
   margin-bottom: 0;
 }
 
+/*-------------------------------------*/
+
 .close_img {
   position: relative;
 }
-/*-------------------------------------*/
 
 .overlay {
   position: absolute;
