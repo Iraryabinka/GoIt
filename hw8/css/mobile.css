@@ -18,18 +18,24 @@ body {
   overflow: hidden;
 }
 
+.none_subtitle {
+  display: none;
+}
+
 .container {
   max-width: 320px;
   margin: 0 auto;
 }
 
 .head_container {
-  background: url("/hw8/img/main_photo.jpg") no-repeat center;
+  background: url("/hw8/img/main_photo_mob.jpg") no-repeat center;
   max-width: 100%;
   color: white;
   margin: 0 auto;
-  height: 540px;
+  letter-spacing: 2px;
+  width: auto;
   margin-bottom: 75px;
+  padding: 50px 50px 236px 50px;
 }
 
 .nav_butttons {
@@ -174,23 +180,23 @@ body {
   padding-top: 6px;
 }
 
- .red {
-  background-color: rgb(255, 78, 80)
- }
+.red {
+  background-color: rgb(255, 78, 80);
+}
 
- .yellow {
+.yellow {
   background-color: rgb(255, 165, 7);
- }
+}
 
- .green {
+.green {
   background-color: rgb(28, 215, 173);
- }
+}
 
- .blue{
+.blue {
   background-color: rgb(78, 115, 219);
- }
+}
 
- .footer_button {
+.footer_button {
   text-decoration: none;
   border: 2px solid rgb(255, 78, 80);
   color: rgb(255, 78, 80);
