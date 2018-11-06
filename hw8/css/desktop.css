@@ -7,7 +7,7 @@
       
       .head_container {
         background: linear-gradient(rgba(26, 25, 21, 0.1), rgba(26, 25, 21, 0.1)),
-         url("/hw8/img/main_img_desc.jpg") no-repeat center;
+         url("../img/main_img_desc.jpg") no-repeat center;
          letter-spacing: 2px;
          width: auto;
          background-size: cover;
