@@ -38,6 +38,7 @@
 
   .partners_container {
     display: flex;
+    padding: 0;
   }
 
   .partners {
