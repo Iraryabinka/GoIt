@@ -32,7 +32,6 @@ body {
   max-width: 100%;
   color: white;
   text-align: center;
-  letter-spacing: 2px;
   width: auto;
   margin-bottom: 75px;
   padding-bottom: 115px;
@@ -82,7 +81,7 @@ body {
 
 .title {
   font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 30px;
   text-transform: uppercase;
   line-height: 1.2;
@@ -120,6 +119,8 @@ body {
   display: flex;
   justify-content: center;
   margin: 0 auto;
+  border: none;
+  background: transparent;
 }
 
 /*----------------------------------*/
@@ -129,7 +130,6 @@ body {
   font-weight: 700;
   font-size: 22px;
   margin: 0 auto;
-  width: 80%;
   text-align: center;
 }
 

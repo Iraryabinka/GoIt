@@ -1,38 +1,35 @@
-
 @font-face {
-  font-family: 'Roboto Slab';
+  font-family: "Roboto Slab";
   font-style: normal;
   font-weight: 300;
-  src: local('Roboto Slab Light'), local('RobotoSlab-Light'),
-       url('../fonts/roboto-slab-v7-latin-300.woff2') format('woff2'), 
-       url('../fonts/roboto-slab-v7-latin-300.woff') format('woff');
-}
-     
-@font-face {
-  font-family: 'Roboto Slab';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'),
-       url('../fonts/roboto-slab-v7-latin-regular.woff2') format('woff2'),
-       url('../fonts/roboto-slab-v7-latin-regular.woff') format('woff');
-      
+  src:
+    url("../fonts/roboto300/roboto-slab-v7-latin-300.woff2") format("woff2"),
+    url("../fonts/roboto300/roboto-slab-v7-latin-300.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Montserrat';
+  font-family: "Roboto Slab";
   font-style: normal;
   font-weight: 400;
-  src: local('Montserrat Regular'), local('Montserrat-Regular'),
-       url('../fonts/montserrat-v12-latin-regular.woff2') format('woff2'), 
-       url('../fonts/montserrat-v12-latin-regular.woff') format('woff');
-      
+  src: url("../fonts/roboto400/roboto-slab-v7-latin-regular.woff2") format("woff2"),
+    url("../fonts/roboto400/roboto-slab-v7-latin-regular.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Montserrat400/montserrat-v12-latin-regular.woff2")
+      format("woff2"),
+    url("../fonts/Montserrat400/montserrat-v12-latin-regular.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
-  src: local('Montserrat Bold'), local('Montserrat-Bold'),
-       url('../fonts/montserrat-v12-latin-700.woff2') format('woff2'), 
-       url('../fonts/montserrat-v12-latin-700.woff') format('woff');
+  src: url("../fonts/Montserrat700/montserrat-v12-latin-700.woff2")
+      format("woff2"),
+    url("../fonts/Montserrat700/montserrat-v12-latin-700.woff") format("woff");
 }
