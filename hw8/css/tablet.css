@@ -1,6 +1,7 @@
 @media screen and (min-width: 768px) {
+  
   .container {
-    max-width: 1439px;
+    max-width: 670px;
     margin: 0 auto;
   }
 
@@ -8,7 +9,8 @@
     background: linear-gradient(rgba(26, 25, 21, 0.1), rgba(26, 25, 21, 0.1)),
       url("../img/main_photo_tabl.jpg") no-repeat center;
     background-size: cover;
-    padding: 50px 50px 236px 50px;
+    padding-top: 50px;
+    padding-bottom: 236px;
     margin-bottom: 78px;
   }
 

@@ -45,7 +45,8 @@ body {
   text-align: center;
   width: auto;
   margin-bottom: 75px;
-  padding: 20px 10px 130px 10px;
+  padding-top: 20px;
+  padding-bottom: 130px;
 }
 
 .site_log {
