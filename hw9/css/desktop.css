@@ -1,0 +1,36 @@
+.head_container {
+  background: linear-gradient(rgba(26, 25, 21, 0.1), rgba(26, 25, 21, 0.1)),
+    url("../img/main_img_desc.jpg") no-repeat center;
+  letter-spacing: 2px;
+  width: auto;
+  background-size: cover;
+}
+
+.none_subtitle {
+  display: block;
+}
+
+.hight_subtitle {
+  display: none;
+}
+
+.nav_butttons {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.partners_container {
+  display: flex;
+  padding: 0;
+}
+
+.partners {
+  display: inline-block;
+  width: 25%;
+}
+
+.img_subtitle {
+  display: inline-block;
+  width: 100%;
+}

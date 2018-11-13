@@ -1,0 +1,76 @@
+ .head_container {
+    background: linear-gradient(rgba(26, 25, 21, 0.1), rgba(26, 25, 21, 0.1)),
+      url("../img/main_photo_tabl.jpg") no-repeat center;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 236px;
+    margin-bottom: 78px;
+  }
+
+  .hight_subtitle {
+    display: none;
+  }
+
+  .site_log_buttons {
+    padding: 0;
+  }
+
+  .none_subtitle {
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  .top_container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+  }
+
+  .title {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-size: 52px;
+  }
+
+  .subtitle {
+    letter-spacing: 2px;
+  }
+
+  .nav_butttons {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 160px;
+  }
+
+  .subtitle {
+    margin-bottom: 40px;
+  }
+
+  .butn_subtitle {
+    width: 226px;
+  }
+
+  .footer_button {
+    width: 194px;
+  }
+
+  .partners_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .botn_title {
+    margin-bottom: 30px;
+  }
+
+  .partners {
+    display: inline-block;
+    width: 40%;
+  }
+
