@@ -18,11 +18,21 @@ body {
   overflow: hidden;
 }
 
+.butn_subtitle:hover {
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+ }
+
+ .footer_button:hover {
+  text-decoration: none;
+  color: rgb(255, 78, 80);
+ }
+
   .head_container {
     background: url("../img/main_photo_mob.jpg") no-repeat center;
     background-size: cover;
     max-width: 100%;
-    color: white;
+    color: rgb(255, 255, 255);
     margin-bottom: 75px;
     padding-top: 20px;
     padding-bottom: 130px;
@@ -110,7 +120,7 @@ body {
   width: 280px;
   display: flex;
   justify-content: center;
-  padding-top: 12px;
+  padding-top: 10px;
   margin: 0 auto;
 }
 
@@ -310,6 +320,10 @@ body {
     background-size: cover;
   }
 
+  .top_container {
+    margin-bottom: 0;
+  }
+
   .none_subtitle {
     display: block;
   }
@@ -332,5 +346,9 @@ body {
   .img_subtitle {
     display: inline-block;
 width: 100%;
+  }
+
+  .butn_subtitle {
+    letter-spacing: normal;
   }
 }
