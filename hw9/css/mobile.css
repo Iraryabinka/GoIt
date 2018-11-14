@@ -74,7 +74,7 @@ body {
   font-size: 20px;
   text-transform: uppercase;
   line-height: 1.2;
-  
+  text-align: center;
 }
 
 .title {
@@ -111,15 +111,11 @@ body {
   display: flex;
   justify-content: center;
   padding-top: 12px;
-  
+  margin: 0 auto;
 }
 
-.butn_subtl {
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  border: none;
-  background: transparent;
+.subtitl_container {
+  text-align: center;
 }
 
 /*------------------------------*/
@@ -181,7 +177,7 @@ body {
   z-index: 2;
 }
 
-.little_img 
+.little_img {
   height: 17px;
   width: 17px;
 }
