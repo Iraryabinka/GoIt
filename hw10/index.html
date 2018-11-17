@@ -15,8 +15,8 @@
 
 <body>
 
-    <header class="masthead__header container">
-
+    <header class="masthead__header">
+<div class="container">
         <nav class="header__header-nav">
             <a href="#" class="site_logo">MoGo</a>
 
@@ -34,7 +34,14 @@
             </ul>
 
         </nav>
-
+        <div class="masthead__header_title">
+                <h2 class="big_subtl_top">Creative Template<br>
+                    <div class="big_subtl_bottom">welcome<br> to mogo</div>
+            </h2>
+<div class="top_link_container">
+            <a href="#" class="top_link">learn more</a></div>
+        </div>
+    </div>
     </header>
 
     <main>
@@ -44,7 +51,9 @@
             <ul class="blocks">
 
                 <li class="item">
-                    <img class="icon" src="img/ALARM.png" alt="alarm" height="32" width="31">
+                        <svg class="icon">
+                                <use xlink:href="#ALARM"></use>
+                              </svg>
                     <div class="text">
                         <h3 class="title">photography</h3>
                         <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quod!</p>
@@ -103,7 +112,13 @@
         <ul class="team_photos">
             <li class="team_photo_item">
                 <div class="img_box">
+
+                        <picture>
+                                <source srcset="img/1man2x.png 2x">
                     <img src="img/img1.jpg" alt="Matthew Dix">
+
+                </picture>
+
                     <div class="layer_over">
                         <ul class="links">
                             <li><a href="#" class="facebook network_button"></a></li>
