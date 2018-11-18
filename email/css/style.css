@@ -92,3 +92,117 @@ html {
     right: 0;
     color: rgb(229, 229, 229);
   }
+
+  .unisex_title {
+      font-size: 30px;
+  }
+
+  .main_content__list {
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      padding: 0;
+  }
+
+  .main_content__size {
+      width: 55px;
+      height: 35px;
+      background-color: #f8f8f8;
+      font-size: 17px;
+      font-weight: bold;
+      padding-top: 16px
+  }
+
+  .dark {
+      background-color: #f0f0f0;
+  }
+
+.addidas__nike__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+  .addidas {
+    width: 293px;
+    height: 330px;
+    background-color: #f0f0f0;
+    margin: 0 auto;
+   }
+
+  .nike {
+    width: 293px;
+    height: 330px;
+    background-color: #f8f8f8;
+    text-align: center;
+  }
+
+  .container__img {
+    margin: 0 auto;
+margin-bottom: 40px;
+  }
+
+  .addidas__nike__subtitle {
+font-size: 15px;
+  }
+
+  .addidas__nike__size__subtitle {
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+  }
+
+  .addidas__nike__size__subtitle::after {
+      position: absolute;
+    content: "";
+    width: 107px;
+    border-bottom: 3px solid #db061a;
+    top: 30px;
+    left: 95px;
+  }
+
+  .unisex_model {
+      margin-bottom: 45px;
+  }
+
+  /*------------------------------*/
+
+  .vans-container {
+      background-image: url('/email/img/vans_bacgr.png');
+  margin-top: 16px;
+  width: 600px;
+  height: 300px;
+    }
+
+    .vans-container__logo {
+        padding-left: 327px;
+        padding-top: 76px;
+    }
+
+    .vans-container__subtitle {
+        font-size: 17px;
+        color: #818181;
+        letter-spacing: 3px;
+        margin-left: 270px;
+        font-weight: bold;
+        margin-top: 5px;
+    }
+
+    .vans-container__link {
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 270px;
+        position: relative;
+    }
+
+    .vans-container__link::after {
+        position: absolute;
+    content: "";
+    width: 107px;
+    border-bottom: 3px solid #0c6cea;
+    top: 30px;
+    right: 0px;
+    }

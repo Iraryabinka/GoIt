@@ -43,7 +43,7 @@ img {
 
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  .box {
+  .masthead__header {
     background: linear-gradient( rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9)),
     url("../img/Layer@2x.png") no-repeat center;
   }
@@ -88,8 +88,8 @@ img {
   justify-content: center;
 }
 
-a.site_logo:active,
-a.site_logo {
+a.masthead__header-logo:active,
+a.masthead__header-logo {
   text-decoration: none;
 }
 
@@ -104,18 +104,18 @@ a.nav_section__link {
   color: rgb(255, 255, 255);
 }
 
-.nav_list_item {
+.site_navigation-item {
   display: inline-block;
   list-style: none;
   margin-right: 60px;
   padding-top: 30px;
 }
 
-.nav_list_item:last-child {
+.site_navigation-item:last-child {
   margin-right: 0;
 }
 
-.header__header-nav {
+.masthead__header-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -133,7 +133,7 @@ a.nav_section__link {
   margin-top: 0;
 }
 
-.site_logo {
+.masthead__header-logo {
   display: inline-block;
   font-family: "Montserrat", sans-serif;
   color: rgb(255, 255, 255);
@@ -192,7 +192,7 @@ a.nav_section__link {
 
 /*------------------------------*/
 
-.item {
+.blocks__item {
   list-style: none;
   display: flex;
   width: 30%;
