@@ -42,8 +42,14 @@ img {
 }
 
 
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi) {
   .masthead__header {
+    background: -webkit-gradient( linear, left top, left bottom, from(rgba(243, 129, 129, 0.9)), to(rgba(252, 227, 138, 0.9))),
+    url("../img/Layer@2x.png") no-repeat center;
+    background: -webkit-linear-gradient( rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9)),
+    url("../img/Layer@2x.png") no-repeat center;
+    background: -o-linear-gradient( rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9)),
+    url("../img/Layer@2x.png") no-repeat center;
     background: linear-gradient( rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9)),
     url("../img/Layer@2x.png") no-repeat center;
   }
@@ -56,7 +62,6 @@ img {
   color: rgb(252, 252, 252);
   font-weight: 400;
   margin: 0;
-  margin-bottom: 114px;
 }
 
 .big_subtl_bottom {
@@ -369,22 +374,22 @@ height: 15px;
 }
 
 .facebook {
-  background: url(../img/facebook.png) no-repeat center;
+  background: url('../img/facebook.png') no-repeat center;
   margin-right: 1px;
 }
 
 .twitter {
-  background: url(../img/twitter.png) no-repeat center;
+  background: url('../img/twitter.png') no-repeat center;
   margin-right: 1px;
 }
 
 .pinterest {
-  background: url(../img/pinterest.png) no-repeat center;
+  background: url('../img/pinterest.png') no-repeat center;
   margin-right: 1px;
 }
 
 .instagram {
-  background: url(../img/instagram.png) no-repeat center;
+  background: url('../img/instagram.png') no-repeat center;
 }
 
 .network_button {
