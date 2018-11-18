@@ -156,6 +156,13 @@ a.nav_section__link {
   border-bottom: 2px solid rgb(252, 227, 138);
 }
 
+.navigation-icon {
+list-style:none;
+fill: white;
+width: 18px;
+height: 15px;
+}
+
 /*------------------------------*/
 
 .subtitle_top {
@@ -203,7 +210,7 @@ a.nav_section__link {
   margin-right: 30px;
   height: 32px;
   width: 31px;
-  fill: red;
+  fill: #95e1d3;
 }
 
 .blocks {
