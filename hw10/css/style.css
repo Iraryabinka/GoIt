@@ -216,7 +216,7 @@ height: 15px;
   margin-right: 30px;
   height: 32px;
   width: 31px;
-  fill: #95e1d3;
+  fill: rgb(149, 225, 211);
 }
 
 .blocks {
@@ -373,23 +373,30 @@ height: 15px;
   display: flex;
 }
 
-.facebook {
-  background: url('../img/facebook.png') no-repeat center;
+svg {
+  stroke:inherit;
+  stroke-width:inherit;
+  fill:inherit;
+  }
+
+.facebook svg {
+  background: url('../img/facebook.svg') no-repeat center;
   margin-right: 1px;
+  fill: rgb(243, 129, 129);
 }
 
 .twitter {
-  background: url('../img/twitter.png') no-repeat center;
+  background: url('../img/twitter.svg') no-repeat center;
   margin-right: 1px;
 }
 
 .pinterest {
-  background: url('../img/pinterest.png') no-repeat center;
+  background: url('../img/pinterest.svg') no-repeat center;
   margin-right: 1px;
 }
 
 .instagram {
-  background: url('../img/instagram.png') no-repeat center;
+  background: url('../img/instagram.svg') no-repeat center;
 }
 
 .network_button {
@@ -411,7 +418,8 @@ height: 15px;
 }
 
 .network_button:hover {
-  background-color: #95e1d3;
+  background-color: rgb(243, 129, 129);
+  fill: rgb(255, 255, 255);
 }
 /*------------------------------*/
 
