@@ -319,6 +319,22 @@ height: 15px;
 
 .layer_over {
   position: absolute;
+  background-image: -webkit-gradient(
+    linear,
+    left top, left bottom,
+    from(rgba(252, 227, 138, 0)),
+    to(rgba(243, 129, 129, 0))
+  );
+  background-image: -webkit-linear-gradient(
+    top,
+    rgba(252, 227, 138, 0) 0%,
+    rgba(243, 129, 129, 0) 100%
+  );
+  background-image: -o-linear-gradient(
+    top,
+    rgba(252, 227, 138, 0) 0%,
+    rgba(243, 129, 129, 0) 100%
+  );
   background-image: linear-gradient(
     to bottom,
     rgba(252, 227, 138, 0) 0%,
@@ -329,6 +345,8 @@ height: 15px;
   top: 0;
   left: 0;
   z-index: 3;
+  -webkit-transition: all 200ms linear;
+  -o-transition: all 200ms linear;
   transition: all 200ms linear;
 }
 
@@ -348,6 +366,22 @@ height: 15px;
 
 .team_photo_item:hover .layer_over {
   display: block;
+  background-image: -webkit-gradient(
+    linear,
+    left top, left bottom,
+    from(rgba(252, 227, 138, 0.9)),
+    to(rgba(243, 129, 129, 0.9))
+  );
+  background-image: -webkit-linear-gradient(
+    top,
+    rgba(252, 227, 138, 0.9) 0%,
+    rgba(243, 129, 129, 0.9) 100%
+  );
+  background-image: -o-linear-gradient(
+    top,
+    rgba(252, 227, 138, 0.9) 0%,
+    rgba(243, 129, 129, 0.9) 100%
+  );
   background-image: linear-gradient(
     to bottom,
     rgba(252, 227, 138, 0.9) 0%,
@@ -373,16 +407,9 @@ height: 15px;
   display: flex;
 }
 
-svg {
-  stroke:inherit;
-  stroke-width:inherit;
-  fill:inherit;
-  }
-
-.facebook svg {
-  background: url('../img/facebook.svg') no-repeat center;
+.facebook {
+  background-image: url('../img/facebook.svg') no-repeat center;
   margin-right: 1px;
-  fill: rgb(243, 129, 129);
 }
 
 .twitter {
@@ -419,7 +446,6 @@ svg {
 
 .network_button:hover {
   background-color: rgb(243, 129, 129);
-  fill: rgb(255, 255, 255);
 }
 /*------------------------------*/
 
@@ -484,4 +510,5 @@ svg {
   padding: 0;
 }
 
-/*------------------------------*/
+
+

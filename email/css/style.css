@@ -46,6 +46,11 @@ html {
       padding-top: 10px;
   }
 
+  .navigation__link {
+text-decoration: none;
+color: white;
+  }
+
   .navig_bacground {
       display: block;
       background-color: rgb(51, 51, 51);
@@ -106,11 +111,11 @@ html {
 
   .main_content__size {
       width: 55px;
-      height: 35px;
+      height: 55px;
       background-color: #f8f8f8;
       font-size: 17px;
       font-weight: bold;
-      padding-top: 16px
+      border: none;
   }
 
   .dark {
@@ -172,6 +177,7 @@ font-size: 15px;
   margin-top: 16px;
   width: 600px;
   height: 300px;
+  margin-bottom: 20px;
     }
 
     .vans-container__logo {
@@ -206,3 +212,229 @@ font-size: 15px;
     top: 30px;
     right: 0px;
     }
+
+    .main-article {
+        margin-bottom: 20px;
+    }
+
+
+.vans_container_mini {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .vans_container_mini__text {
+    width: 50%;
+    height: 240px;
+    background-color: #f8f8f8;
+    text-align: left;
+    padding-top: 26px;
+    padding-left: 33px;
+  }
+
+  .vans_container_mini__title {
+      font-size: 24px;
+      position: relative;
+  }
+
+  .vans_container_mini__subtitle {
+    font-size: 15px;
+  }
+
+  .vans_container_mini__title::after {
+    position: absolute;
+    content: "";
+    width: 20px;
+    border-bottom: 2px solid #ea520c;
+    top: 65px;
+    left: 0px;
+  }
+
+  .long_txt_container {
+      height: 180px;
+      background-color: #f8f8f8;
+      padding: 40px 25px 0 40px;
+      margin-bottom: 20px;
+  }
+
+  .long_txt_container__title {
+    font-size: 24px;
+    position: relative;
+    margin-bottom: 30px;
+  }
+
+  .long_txt_container__title::after {
+    position: absolute;
+    content: "";
+    width: 20px;
+    border-bottom: 2px solid #ea520c;
+    top: 45px;
+   left: 250px;
+  }
+
+  .long_txt_container__subtitle {
+    font-size: 15px;
+  }
+
+  .wrapper_images {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+  }
+
+  .little_img {
+      margin-bottom: 25px;
+  }
+
+  .subtitle_container {
+      background-color: #f8f8f8;
+      padding-bottom: 30px;
+  }
+
+  .woman_air_container__title {
+      margin: 0;
+      padding-top: 27px;
+      padding-bottom: 20px;
+  }
+
+  .woman_air_container__link {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: black;
+      font-weight: bold;
+  }
+
+  .woman_air_container__link:hover,
+.woman_air_container__link::after {
+  content: "";
+  width: 50px;
+  border-bottom: 2px solid rgb(226, 20, 13);
+}
+
+.icons_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.icons_container_title {
+display: flex;
+width: 25%;
+}
+
+.icon_img {
+    height: 37px;
+    width: 34px;
+    padding-right: 15px;
+}
+
+.icons_container__subtitle {
+    margin: 0;
+    font-size: 13px;
+    text-align: left;
+}
+
+.icons_container__subtitle::after {
+    content: "";
+    height: 60px;
+    border-right: 1px solid rgb(151, 151, 151);
+padding-right: 20px;
+}
+
+.lables_container{
+    list-style: none;
+    display:flex;
+    flex-flow: row wrap;
+justify-content: space-between;
+padding: 0;
+margin-bottom: 20px;
+}
+
+.lables_container_items {
+    width: 148px;
+    height: 80px;
+    background-color: #f8f8f8;
+    margin-bottom: 3px;
+}
+
+.lables_img {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.contacts {
+    display: flex;
+}
+
+.agenda {
+width: 240px;
+height: 90px;
+background-color: #333333;
+color: white;
+font-size: 15px;
+text-align: left;
+padding-left: 23px;
+line-height: 1.2;
+}
+
+.agenta__title {
+    margin-bottom: 0;
+}
+
+.agenta__subtitle {
+    margin-top: 0;
+}
+
+.phone {
+    width: 200px;
+height: 90px;
+    display: flex;
+    background-color: #484848;
+color: white;
+}
+
+.phone__img {
+     width: 20px;
+height: 21px;
+padding: 36px 15px 36px 34px;
+}
+
+.operator {
+    font-weight: bold;
+}
+
+.order {
+    background-color: #c7161f;
+    width: 160px;
+height: 90px;
+margin-bottom: 45px;
+}
+
+.order__link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.order__img {
+    margin: 0;
+    padding: 18px 60px 10px 50px;
+}
+
+.shop_link {
+color: red;
+text-decoration: none;
+}
+
+.footer_subtitle {
+    font-size: 11px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #999999;
+}
+
+.unsubskr_link {
+    color: #999999;
+}
