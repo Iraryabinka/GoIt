@@ -539,27 +539,3 @@ height: 15px;
   align-self: flex-end;
   padding: 0;
 }
-
-.input_email {
-  height: 40px;
-  width: 230px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-size: 14px;
-  font-style: italic;
-  line-height: 1.6;
-  align-self: flex-end;
-  padding: 0;
-}
-
-.input_email {
-  height: 40px;
-  width: 230px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-size: 14px;
-  font-style: italic;
-  line-height: 1.6;
-  align-self: flex-end;
-  padding: 0;
-}
