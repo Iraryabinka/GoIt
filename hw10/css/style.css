@@ -415,13 +415,10 @@ height: 15px;
 .facebook {
   width: 13px;
   height: 26px;
-  fill: #f38181;
   text-align: center;
   padding-top: 8px;
-}
-
-.facebook::hover {
-fill: white;
+  margin-right: 1px;
+  fill: #f38181;
 }
 
 .twitter {
@@ -430,8 +427,8 @@ fill: white;
   fill: #f38181;
   text-align: center;
   padding-top: 8px;
-  /*background: url('../img/twitter.svg') no-repeat center;
-  margin-right: 1px;*/
+  /*background: url('../img/twitter.svg') no-repeat center;*/
+  margin-right: 1px;
 }
 
 .pinterest {
@@ -440,8 +437,8 @@ fill: white;
   fill: #f38181;
   text-align: center;
   padding-top: 8px;
-  /*background: url('../img/pinterest.svg') no-repeat center;
-  margin-right: 1px;*/
+  /*background: url('../img/pinterest.svg') no-repeat center;*/
+  margin-right: 1px;
 }
 
 .instagram {
@@ -471,9 +468,14 @@ fill: white;
   border-right: 0;
 }
 
-.network_button:hover {
+.network_button:hover{
   background-color: rgb(243, 129, 129);
 }
+
+.network_button:hover svg {
+  fill: rgb(255, 255, 255); 
+}
+
 /*------------------------------*/
 
 .background_cont {
