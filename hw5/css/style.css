@@ -4,7 +4,7 @@ html {
 
 body {
   font-family: "Roboto", sans-serif, serif;
-  color: #555252;
+  color: #555248;
 }
 
 .visually-hidden {
@@ -36,7 +36,7 @@ img {
 }
 
 .container {
-  width: 1110px;
+  width: 1115px;
   margin: 0 auto;
   position: relative;
 }
